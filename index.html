@@ -17,10 +17,10 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
 </head>
-<body class="font-[space_grotesk]">
+<body class="font-[space_grotesk] max-w-[1440px] mx-auto lg:px-0 px-4">
     
-    <header class="max-w-[1440px] mx-auto">
-        <nav class="flex justify-between mt-8 lg:px-0 px-4">
+    <header class="">
+        <nav class="flex justify-between mt-8 ">
             <div class="flex gap-0 lg:gap-2">
                 <img class="" src="./assets/star.png" alt="">
                 <img class="w-[100px] lg:w-full" src="./assets/Positivus.svg" alt="">
@@ -50,17 +50,112 @@
           </details>
         </nav>
 
-        <section class="mt-12 flex lg:flex-row flex-col justify-between lg:px-0 px-4">
-            <div class="w-1/2">
-                <h1 class="text-[#000000] text-6xl">Navigating the <br> digital landscape <br> for success</h1>
-                <p class=" text-[#000000] text-xl mt-4">Our digital marketing agency helps businesses <br> grow and succeed online through a range of <br> services including SEO, PPC, social media marketing, <br> and content creation.</p>
+        <section class="mt-12 flex lg:flex-row flex-col justify-between ">
+            <div class="e-full lg:w-1/2 text-center lg:text-left">
+                <h1 class="text-[#000000] text-6xl text-center lg:text-left">Navigating the <br class="hidden"> digital landscape <br class="hidden"> for success</h1>
+                <p class=" text-[#000000] text-xl mt-4">Our digital marketing agency helps businesses <br class="hiiden"> grow and succeed online through a range of <br class="hidden"> services including SEO, PPC, social media marketing, <br class="hidden"> and content creation.</p>
                 <button class="btn bg-black text-white mt-4">Book a consultation</button>
             </div>
 
-            <div class="flex items-start"> <img src="./assets/Illustration.png" alt=""></div>
+            <div class="flex items-start mt-5 lg:mt-0"> <img src="./assets/Illustration.png" alt=""></div>
              
         </section>
     </header>
-    <main></main>
+    <main>
+        <div class="flex lg:flex-row flex-col gap-24 items-center justify-center mt-5">
+            <div class="flex justify-between  gap-12 lg:gap-24">
+                <img src="./assets/amazon.png" alt="">
+                <img src="./assets/dribble.png" alt="">
+            </div>
+            <div class="flex justify-between gap-12 lg:gap-24">
+                <img src="./assets/hub.png" alt="">
+                <img src="./assets/notion.png" alt="">
+            </div>
+            <div class="flex justify-between gap-12 lg:gap-24">
+                <img src="./assets/netflix.png" alt="">
+                <img src="./assets/star.png" alt="">
+            </div>
+        </div>
+
+        <div class="lg:w-1/2 flex lg:flex-row flex-col gap-4 mt-12">
+            <p class="bg-[#B9FF66] text-4xl lg:text-left text-center">Case Studies</p>
+            <p class="text-center lg:text-left">Explore Real-Life Examples of Our Proven Digital Marketing <br> Success through Our Case Studies</p>
+        </div>
+
+
+        <div class="mt-5 w-full bg-black text-white flex flex-col lg:flex-row gap-4 p-20 rounded-lg">
+            <div >
+                <p>For a local restaurant, we implemented a targeted PPC campaign that resulted in a 50% increase in website traffic and a 25% increase in sales.</p>
+          <div class="flex gap-2 mt-3 items-center">
+            <p>Learn More</p>
+            <img src="./assets/Icon.png" alt="">
+          </div>
+            </div>
+            <div class="mt-4 lg:mt-0">
+                <p>For a local restaurant, we implemented a targeted PPC campaign that resulted in a 50% increase in website traffic and a 25% increase in sales.</p>
+          <div class="flex mt-3 gap-2 items-center">
+            <p>Learn More</p>
+            <img src="./assets/Icon.png" alt="">
+          </div>
+            </div>
+            <div class="mt-4 lg:mt-0">
+                <p>For a local restaurant, we implemented a targeted PPC campaign that resulted in a 50% increase in website traffic and a 25% increase in sales.</p>
+          <div class="flex gap-2 mt-3 items-center">
+            <p>Learn More</p>
+            <img src="./assets/Icon.png" alt="">
+          </div>
+            </div>
+        </div>
+
+         <div class="lg:w-1/2 flex lg:flex-row flex-col gap-4 mt-12">
+            <p class="bg-[#B9FF66] text-4xl lg:text-left text-center">Our Working Process </p>
+            <p class="text-center lg:text-left ">Step-by-Step Guide to Achieving <br> Your Business Goals</p>
+        </div>
+
+        <div class="mt-5 w-full bg-[#B9FF66] text-black flex flex-col lg:flex-row gap-4 p-20 rounded-lg">
+            <div class="flex justify-between">
+                <div class="flex gap-2">
+                <p class="text-5xl">01</p>
+            <p class="text-3xl">consultation</p>
+            </div>
+            <img class="lg:ml-[950px] ml-4" src="./assets/minus.png" alt="">
+            
+            </div>
+        </div>
+
+        <div class="mt-5 w-full bg-[#F3F3F3] text-black flex flex-col lg:flex-row gap-4 p-16 rounded-lg">
+            <div class="flex justify-between">
+                <div class="flex gap-2">
+                <p class="text-5xl">02</p>
+            <p class="text-3xl whitespace-nowrap">Research and Strategy Development</p>
+            </div>
+            <img class="lg:ml-[620px] " src="./assets/plus.png" alt="">
+            
+            </div>
+            
+        </div>
+        <div class="mt-5 w-full bg-[#F3F3F3] text-black flex flex-col lg:flex-row gap-4 p-16 rounded-lg">
+            <div class="flex justify-between">
+                <div class="flex gap-2">
+                <p class="text-5xl">03</p>
+            <p class="text-3xl whitespace-nowrap">Implementation</p>
+            </div>
+            <img class="ml-[930px]" src="./assets/plus.png" alt="">
+            
+            </div>
+            
+        </div>
+        <div class="mt-5 w-full bg-[#F3F3F3] text-black flex flex-col lg:flex-row gap-4 p-16 rounded-lg">
+            <div class="flex justify-between">
+                <div class="flex gap-2">
+                <p class="text-5xl">04</p>
+            <p class="text-3xl whitespace-nowrap">Monitoring and Organization</p>
+            </div>
+            <img class="ml-[750px]" src="./assets/plus.png" alt="">
+            
+            </div>
+            
+        </div>
+    </main>
 </body>
 </html>
