@@ -3,9 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Postivus</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
 </head>
-<body>
-    <h1>Hello everyoone</h1>
+<body class="font-[space_grotesk]">
+    
+    <header class="max-w-[1440px] mx-auto">
+        <nav class="flex justify-between mt-8 lg:px-0 px-4">
+            <div class="flex gap-0 lg:gap-2">
+                <img class="" src="./assets/star.png" alt="">
+                <img class="w-[100px] lg:w-full" src="./assets/Positivus.svg" alt="">
+            </div>
+            <div class="hidden lg:flex lg:flew-row gap-8 items-center">
+            <a href="#">About Us</a>
+            <a href="#">Use Cases</a>
+            <a href="#">Services</a>
+            <a href="#">Pricing</a>
+            <a href="#">Blog</a>
+            <button class="px-4 py-3 border-1 border-black rounded-lg">Request a Quote</button>
+            </div>
+            <details class="lg:hidden ">
+            <summary class="text-black text-xl list-none">
+             <i class="ml-10 fa-solid fa-bars"></i>
+            </summary>
+            <div
+              class="flex flex-col  items-stretch  font-semibold"
+            >
+              <a class="ml-10" href="">About Us</a>
+              <a class="ml-10" href="">Use Cases</a>
+              <a class="ml-10" href="">Services</a>
+              <a class="ml-10" href="">Pricing</a>
+              <a class="ml-10" href="">Blog</a>
+            <button class="px-4 py-3 border-1 border-black rounded-lg">Request a Quote</button>
+            </div>
+          </details>
+        </nav>
+
+        <section class="mt-12 flex lg:flex-row flex-col justify-between lg:px-0 px-4">
+            <div class="w-1/2">
+                <h1 class="text-[#000000] text-6xl">Navigating the <br> digital landscape <br> for success</h1>
+                <p class=" text-[#000000] text-xl mt-4">Our digital marketing agency helps businesses <br> grow and succeed online through a range of <br> services including SEO, PPC, social media marketing, <br> and content creation.</p>
+                <button class="btn bg-black text-white mt-4">Book a consultation</button>
+            </div>
+
+            <div class="flex items-start"> <img src="./assets/Illustration.png" alt=""></div>
+             
+        </section>
+    </header>
+    <main></main>
 </body>
 </html>
